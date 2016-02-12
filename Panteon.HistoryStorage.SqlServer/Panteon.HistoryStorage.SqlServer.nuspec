@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Panteon.HistoryStorage.SqlServer</id>
+    <version>1.0.1</version>
+    <title>Panteon.HistoryStorage.SqlServer</title>
+    <authors>Ziya SARIKAYA</authors>
+    <owners>ziyasal</owners>
+    <iconUrl>https://raw.githubusercontent.com/PanteonProject/panteon-dashboard/master/misc/path4141.png</iconUrl>
+    <licenseUrl>https://github.com/PanteonProject/Panteon.HistoryStorage/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PanteonProject/Panteon.HistoryStorage/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Panteon Task SDK History Storage SqlServer
+    </description>
+    <summary>
+      Panteon Task SDK History Storage SqlServer
+    </summary>
+    <tags>panteon task job scheduler host storage sql-server</tags>
+    <copyright />
+    <dependencies>
+      <dependency id="Panteon.Sdk" version="1.1.0.1"  />
+      <dependency id="Dapper" version="1.42"  />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Panteon.HistoryStorage.SqlServer.dll" target="lib\net451\Panteon.HistoryStorage.SqlServer.dll" />
+  </files>
+</package>
