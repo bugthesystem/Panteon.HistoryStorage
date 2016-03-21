@@ -42,7 +42,7 @@ namespace Panteon.HistoryStorage.SqlServer
         public IEnumerable<HistoryModel> Load(string name, DateTime? @from = null, DateTime? to = null)
         {
             //TODO: Impl from to
-            const string Sql = "SELECT Id, Name, Details, DateCreated FROM HistoryDetail WITH (NOLOCK)";
+            const string Sql = "SELECT Id, Name, Details, DateCreated FROM HistoryDetail WITH (NOLOCK) ORDER BY DateCreated DESC";
             IEnumerable<HistoryModel> result = Enumerable.Empty<HistoryModel>();
 
             try
